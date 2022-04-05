@@ -10,8 +10,6 @@ for _ in range(n):
 time.sort(key=lambda x: x[0])
 time.sort(key=lambda x: x[1])
 
-cnt = 1
-
 cnt = 0
 end = 0
 for i, j in time:
