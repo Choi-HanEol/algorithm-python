@@ -1,5 +1,4 @@
-n = int(input())
-array = list(map(int, input()))
-print(array)
-# print(array[1])
+import sys
+n = tuple(map(int,sys.stdin.readline().split()))
+print(n[1])
 
