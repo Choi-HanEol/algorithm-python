@@ -7,7 +7,7 @@ miro = []   # 미로
 for _ in range(N):
     miro.append(list(map(int, input())))
 
-# 방향을 나타냄
+# 방향을 나타냄 좌, 상, 우, 하
 dx = [-1, 0, 1, 0]
 dy = [0, -1, 0, 1]
 
